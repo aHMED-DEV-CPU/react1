@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active {
+    @apply  bg-mainColor rounded-md p-2
+}
+.rowTail {
+    @apply flex flex-wrap
+}
